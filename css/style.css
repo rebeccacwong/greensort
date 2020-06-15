@@ -52,8 +52,8 @@ body {
 }
 .lightgreen-back {
   background-color: #e3fdf5;
-  height: 25vw;
-  margin-top: 25vw;
+  height: 20vw;
+  margin-top: 20vw;
 }
 
 .container > h2 {
@@ -91,8 +91,12 @@ body {
 #anim0 {
   position: absolute;
   width: 70%;
+  margin: 0 auto;
   margin-top: 2em;
-  left: 15%;
+  left: 0;
+  right: 0;
+  max-width: 50em;
+  object-fit: contain;
 }
 
 #anim1 {
