@@ -134,7 +134,7 @@ var discard2Data = {
 var discard2Animation = lottie.loadAnimation(discard2Data);
 discard2Animation.setSpeed(0.7);
 
-os.on("enter", "#anim0", (element, event) => {
+os.on("enter", "#anim1", (element, event) => {
   discard2Animation.play();
 });
 
@@ -156,4 +156,4 @@ function checkWindow(initLeaves) {
 
 checkWindow(true);
 
-// window.onresize = () => checkWindow(false);
+window.onresize = () => checkWindow(false);
