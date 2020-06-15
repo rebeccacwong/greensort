@@ -127,12 +127,16 @@ os.on("enter", "#anim0", (element, event) => {
 var discard2Data = {
   container: document.getElementById("anim1"),
   renderer: "svg",
-  autoplay: true,
+  autoplay: false,
   loop: true,
   path: "js/data.json",
 };
 var discard2Animation = lottie.loadAnimation(discard2Data);
 discard2Animation.setSpeed(0.7);
+
+os.on("enter", "#anim0", (element, event) => {
+  discard2Animation.play();
+});
 
 /** RESPONSIVE RESIZING */
 function checkWindow(initLeaves) {
@@ -142,14 +146,14 @@ function checkWindow(initLeaves) {
     $("#anim1").css("height", "30vw");
     $("#anim1").css("width", "30vw");
   } else {
-    $("#anim1").css("height", "30em");
-    $("#anim1").css("width", "30em");
+    // $("#anim1").css("height", "30em");
+    // $("#anim1").css("width", "30em");
     $("#all-leaves").empty();
   }
 
   // $(".lightgreen-back").css("margin-top", $("#anim1").offset().top + 10);
 }
 
-// checkWindow(true);
+checkWindow(true);
 
-// window.onresize = () => checkWindow(false);
+window.onresize = () => checkWindow(false);

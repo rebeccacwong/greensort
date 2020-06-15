@@ -100,7 +100,7 @@ body {
   border-radius: 15em;
   height: 30vw;
   width: 30vw;
-  overflow: hidden;
+  /* overflow: hidden; */
   object-fit: cover;
 }
 #how-it-works-bg {
