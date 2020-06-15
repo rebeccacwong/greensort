@@ -68,8 +68,8 @@ body {
 }
 
 #main-img {
-  height: 40em;
-  background-image: url("../assets/graphics/greensort-main.svg");
+  height: 30em;
+  background-image: url("../assets/graphics/greensort-main2.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
