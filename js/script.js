@@ -156,4 +156,4 @@ function checkWindow(initLeaves) {
 
 checkWindow(true);
 
-window.onresize = () => checkWindow(false);
+// window.onresize = () => checkWindow(false);
