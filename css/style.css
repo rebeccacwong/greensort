@@ -1,0 +1,195 @@
+* {
+  font-family: proxima-nova, sans-serif;
+  color: #595959;
+  font-style: normal;
+}
+html {
+  overflow-x: hidden;
+}
+
+h4 {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+h3 {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+h2 {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 800;
+}
+.bold {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+em {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+.center {
+  margin: 0 auto;
+  text-align: center;
+}
+.mt-heavy {
+  margin-top: 15em;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/** COLOR */
+.darkgreen-txt {
+  color: #3b5849;
+}
+.green-txt {
+  color: #6ab5a5;
+}
+.lightgreen-back {
+  background-color: #e3fdf5;
+  height: 25vw;
+  margin-top: 25vw;
+}
+
+.container > h2 {
+  font-weight: 800;
+}
+.container > h3 {
+  font-weight: 700;
+}
+.container h1 {
+  font-weight: 800;
+  font-size: 3em;
+}
+
+#main-img {
+  height: 40em;
+  background-image: url("../assets/graphics/greensort-main.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#logo-green {
+  height: 8em;
+  background-image: url("../assets/branding/logo2.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 5em;
+}
+
+.containerXXL {
+  width: 100%;
+}
+
+#anim0 {
+  position: absolute;
+  width: 70%;
+  margin-top: 2em;
+  left: 15%;
+}
+
+#anim1 {
+  background-color: #6ab5a5;
+  border-radius: 15em;
+  height: 30vw;
+  width: 30vw;
+  overflow: hidden;
+  object-fit: cover;
+}
+#how-it-works-bg {
+  margin-left: 11.5em;
+  margin-top: -6em;
+  position: absolute;
+  height: 30em;
+  width: 40em;
+  background-image: url("../assets/graphics/bg.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.num {
+  border-radius: 15em;
+  width: 1.7em;
+  height: 1.7em;
+  display: flex;
+  align-items: center;
+  background-color: #6ab5a5;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+  font-weight: 800;
+}
+.selected-step > .num {
+  background-color: #3b5849;
+}
+.selected-step > h2 {
+  color: #3b5849;
+}
+#step-img {
+  background-image: url("../assets/graphics/mockup-video-final.gif");
+  background-repeat: no-repeat;
+  height: 30em;
+  width: 20em;
+  background-size: contain;
+}
+.step {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin-bottom: 2.2em;
+}
+.step > h2 {
+  margin-left: 0.8em;
+}
+#download {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 40em;
+}
+.badges > img {
+  width: 48%;
+}
+.badges {
+  width: 70%;
+}
+.footer {
+  position: relative;
+  z-index: 5;
+  background-color: #3b5849;
+  margin-top: 6em;
+  font-size: 0.8em;
+  bottom: -1em;
+}
+.footer div {
+  color: white;
+  margin-bottom: 0;
+}
+#social-icons > img {
+  width: 8%;
+  margin-right: 2%;
+}
+.canClick {
+  cursor: pointer;
+}
+#social-icons img:last-child {
+  width: 9%;
+}
+.leaf {
+  position: absolute;
+  background-image: url("../assets/graphics/green-leaf.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0.3;
+  z-index: 2;
+}
